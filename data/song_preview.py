@@ -27,7 +27,7 @@ def get_song_preview(query: str) -> str:
             return track["preview"]
         
         #In case there is no preview
-        return "No Preview Found"
+        return None
     
     #Catch any errors
     except Exception as e:
