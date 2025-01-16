@@ -4,3 +4,7 @@ myenv/
 # Ignore compiled Python files
 __pycache__/
 *.pyc
+
+
+# Ignore dataset for now
+acousticbrainz-highlevel-json-20220623
