@@ -4,7 +4,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, classification_report
 
-df = pd.read_csv("mood_dataset.csv")  # Replace with your actual file
+df = pd.read_csv("mood.csv")  # Replace with your actual file
 
 X = df.drop(columns=["mood"])  # Features (mood vectors)
 y = df["mood"]  # Labels (10 mood categories)
