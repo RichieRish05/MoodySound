@@ -39,7 +39,7 @@ def extract_features(file_path: Path):
                 
             # If the csv row contains all necessary features, it is returned
             if len(csv_row.keys()) == len(metadata) + len(mood_features):
-                print(f'Succesfuly processed {file_path}')
+                print(f'Succesfully processed {file_path}')
                 return(csv_row)
             else:
                 print('Error processing {file_path}: could not extract all features')

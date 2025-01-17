@@ -6,5 +6,5 @@ __pycache__/
 *.pyc
 
 
-# Ignore dataset for now
+# Ignore dataset
 acousticbrainz-highlevel-json-20220623
