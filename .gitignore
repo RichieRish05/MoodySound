@@ -8,3 +8,6 @@ __pycache__/
 
 # Ignore dataset
 acousticbrainz-highlevel-json-20220623
+
+# Ignore the csv file
+dataset_creator/mood.csv
