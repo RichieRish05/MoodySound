@@ -7,4 +7,5 @@ __pycache__/
 
 
 # Ignore dataset
-acousticbrainz-highlevel-json-20220623
+dataset_creator/acousticbrainz-highlevel-json-20220623
+data/
